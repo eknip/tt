@@ -616,8 +616,6 @@ if (!\class_exists('\Sovit\TikTok\Api')) {
          */
         private function failure()
         {
-
-            @unlink($this->_config['cookie_file']);
             return false;
         }
         /**
